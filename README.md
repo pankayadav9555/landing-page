@@ -7,7 +7,7 @@ Built with **HTML & CSS only** (fully responsive).
 ---
 
 ## 🚀 Live Demo
-👉 [View Website](https://<your-github-username>.github.io/<repo-name>/)
+👉 [View Website]( https://pankayadav9555.github.io/landing-page/)
 
 *(Replace `<your-github-username>` and `<repo-name>` with your actual GitHub username and repository name.)*
 
