@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skinveda – Organic Skincare</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('images/background.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: #2d2d2d;
+    }
+
+    header {
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #3b8d4a;
+      margin: 0;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #3b8d4a;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: #2a6835;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background-color: rgba(255, 255, 255, 0.6);
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      color: #3b8d4a;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin: 20px auto;
+      max-width: 600px;
+    }
+
+    .hero button {
+      padding: 12px 30px;
+      font-size: 1rem;
+      background-color: #3b8d4a;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+    }
+
+    .hero button:hover {
+      background-color: #2a6835;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 60px 20px;
+    }
+
+    .feature-box {
+      background-color: #eaffea;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 25px;
+      margin: 15px;
+      width: 280px;
+      text-align: center;
+    }
+
+    .feature-box h3 {
+      color: #2a6835;
+      margin-bottom: 10px;
+    }
+
+    .contact {
+      background-color: #f6fff6;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .contact h3 {
+      font-size: 1.8rem;
+      color: #3b8d4a;
+    }
+
+    .contact p {
+      font-size: 1.1rem;
+      margin: 5px 0;
+    }
+
+    footer {
+      background-color: #cdeac0;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+      color: #2a6835;
+    }
+
+    @media (max-width: 768px) {
+      .features {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .feature-box {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Skinveda</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#features">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Nature’s Touch for Radiant Skin</h2>
+    <p>Skinveda offers 100% organic, cruelty-free skincare made with love. Your skin deserves nothing less than pure, gentle, and effective ingredients straight from nature.</p>
+    <button>Shop Now</button>
+  </section>
+
+  <section id="features" class="features">
+    <div class="feature-box">
+      <h3>🌿 Organic Ingredients</h3>
+      <p>Only nature-powered elements like aloe vera, rose water, and tea tree oil.</p>
+    </div>
+    <div class="feature-box">
+      <h3>🧴 Best Sellers</h3>
+      <p>Herbal Cleanser, Night Cream, and Vitamin C Serum loved by thousands.</p>
+    </div>
+    <div class="feature-box">
+      <h3>💬 Customer Review</h3>
+      <p>“The glow on my skin is unbelievable. Love that it's all-natural!” – Riya S.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h3>Contact Us</h3>
+    <p>Email: care@skinveda.com</p>
+    <p>Instagram: @skinveda</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Skinveda. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
